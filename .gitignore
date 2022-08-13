@@ -1,4 +1,6 @@
 out/
-*.xml
+.idea/
+.idea_modules/
 *.iml
-.idea
+*.ipr
+*.iws
