@@ -27,5 +27,20 @@ public class ByteShortIntLong {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue); // Long min is -9223372036854775808
         System.out.println("Long Maximum Value = " + myMaxLongValue); // Long max is 9223372036854775807
+
+//        Casting Lec
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
+//        Primitive Types Challenge
+        byte challengeByte = 125;
+        short challengeShort = 3000;
+        int challengeInt = 7;
+        long challengeLong = 50000L + 10L * (challengeByte + challengeShort + challengeInt);
+
+        System.out.println(challengeLong);
     }
 }
