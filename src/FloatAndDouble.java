@@ -10,8 +10,19 @@ public class FloatAndDouble {
         System.out.println("Double minimum value = " + myMinDoubleValue);
         System.out.println("Double maximum value = " +myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d;
+//        Floating Point Precision Lec
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d;
+//        Its faster to use double on Standard computers due to chips, so it's recommended to use double
+
+        System.out.println("MyIntValue = " + myIntValue);
+        System.out.println("MyFloatValue = " + myFloatValue);
+        System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        double pounds = 200d;
+        double convertedToKilograms = pounds * 0.45359237d;
+
+        System.out.println("Pounds to Kilograms = " + convertedToKilograms);
     }
 }
