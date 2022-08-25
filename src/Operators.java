@@ -61,8 +61,16 @@ public class Operators {
         }
 
         boolean isCar = false;
-        if(isCar == true){
+        if(isCar){
             System.out.println("This is not supposed to happen");
         }
+
+//        ternary operator
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar){
+            System.out.println("wasCar is true");
+        }
+
     }
 }
