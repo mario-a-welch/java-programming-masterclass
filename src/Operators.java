@@ -72,5 +72,24 @@ public class Operators {
             System.out.println("wasCar is true");
         }
 
+//        Operator Challenge
+        double firstVal = 20.00d;
+        double secondVal = 80.00d;
+
+        double sumVal = (firstVal + secondVal) * 100.00d;
+        System.out.println("sumVal total = " + sumVal);
+
+        double remainder = sumVal % 40.00d;
+        System.out.println("Remainder = " + remainder);
+
+        boolean isZero = (remainder == 0) ? true : false;
+        System.out.println(isZero);
+
+        if(!isZero){
+            System.out.println("Got remainder of " + remainder);
+        } else{
+            System.out.println("No remainder");
+        }
+
     }
 }
