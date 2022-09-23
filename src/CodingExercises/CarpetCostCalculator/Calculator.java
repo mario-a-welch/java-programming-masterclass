@@ -1,4 +1,4 @@
-package CodingExercises;
+package CodingExercises.CarpetCostCalculator;
 
 public class Calculator {
 
