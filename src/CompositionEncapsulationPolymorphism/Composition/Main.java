@@ -1,5 +1,7 @@
 package CompositionEncapsulationPolymorphism.Composition;
 
+// Look to use Composition before using Inheritance when developing projects
+// Usually provides added advantages and flexibility on certain projects
 public class Main {
     public static void main(String[] args) {
         Dimensions dimensions = new Dimensions(20, 20, 5);
@@ -11,8 +13,7 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
 
-        thePC.getMonitor().drawPixelAt(1500,1200,"red");
-        thePC.getMotherboard().loadProgramming("Windows 1.0");
-        thePC.getTheCase().pressPowerButton();
+        thePC.powerUp();
+
     }
 }
