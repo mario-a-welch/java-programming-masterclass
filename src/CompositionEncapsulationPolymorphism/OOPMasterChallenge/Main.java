@@ -26,10 +26,10 @@ package CompositionEncapsulationPolymorphism.OOPMasterChallenge;
 public class Main {
     public static void main(String[] args) {
         Hamburger hamburger = new Hamburger("basic", "Sausage", 3.56, "White");
-        double price = hamburger.itemizedHamburger();
+        double price = hamburger.itemizeHamburger();
         hamburger.addHamburgerAddition("cheese", 1.44);
         hamburger.addHamburgerAddition2("tomato", .50);
-        System.out.println("Total price is " + hamburger.itemizedHamburger());
+        System.out.println("Total price is " + hamburger.itemizeHamburger());
 
     }
 }
